@@ -1,0 +1,574 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* utility classes */
+html {
+    font-size: 62.5%;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    text-transform: capitalize;
+    margin: 0 auto;
+}
+
+.h1_heading {
+    font-size: 2.5rem;
+    width: 100%;
+    height: 25%;
+    background-color: aqua;
+    border: 1px solid rgb(245, 240, 240);
+    border-radius: 5px;
+    margin-bottom: .5px;
+}
+
+/* Main Container */
+.parent_container
+{
+    display: flex;
+}
+
+.main {
+    margin: .0%;
+    background-image: url(./images/bg4.png);
+    width: 80%;
+    height: 100vh;
+    background-size: cover;
+    border: 1px solid rgb(253, 250, 250);
+    border-radius: 5px;
+    position: relative;
+}
+
+  .vf{
+    position: absolute;
+    bottom: 25%;
+    left: 37%;
+    width: 5.8%;
+  }
+.beaker
+{
+    width: 18%;
+    position: absolute;
+    bottom: 45%;
+    left: 25%;
+}
+.rfbflask{
+    width: 6%;
+    position: absolute;
+    bottom: 25%;
+    left: 48%;
+}
+.droper{
+    width: 12%;
+    position: absolute;
+    bottom: 22.5vh;
+    left: 70vh;
+   /* rotate: 90deg;*/
+
+}
+
+.burette
+{
+    width: 36%;
+    position: absolute;
+    left: 53%;
+    bottom: 25%;
+}
+
+.conical-flask {
+    width: 20%;
+    position: absolute;
+    left: 73%;
+    bottom: 25.9%;
+}
+
+.machineLP{
+    width: 15%;
+    position: absolute;
+    left: 17%;
+    bottom: 25%;
+
+}
+.machineUP{
+    width: 15%;
+    position: absolute;
+    left: 45%;
+    bottom: 12%;
+
+}
+.machine{
+    width: 15%;
+    position: absolute;
+    left: 17%;
+    bottom: 36.5%;
+
+}
+.pbtn{
+    cursor: pointer;
+  height: 3.0%;
+  width: 1.6%;
+  position: absolute;
+  left: 26.9%;
+  bottom: 30%;
+
+  border-radius: 30%;
+}
+.speed{
+    cursor: pointer;
+  height: 2.5%;
+  width: 1.8%;
+  position: absolute;
+  left: 20.4%;
+  bottom: 30.1%;
+}
+#reading{
+    position: absolute;
+  
+    left:  23.3%;
+    bottom: 30.6%;
+    font-size: 2.0vh;
+    visibility: hidden;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+
+.button {
+    width: 10%;
+    padding: .5% .7%;
+    position: absolute;
+    bottom: 5.5%;
+    right: 1%;
+    cursor: pointer;
+    background-color:  rgba(9, 192, 212, 0.959);
+    text-transform:capitalize;
+    border-radius: .5%;
+}
+
+.button1 {
+    width: 10%;
+    padding: .5% .7%;
+    position: absolute;
+    bottom: 5.5%;
+    left: 2%;
+    background-color: rgba(9, 192, 212, 0.959);
+    cursor: pointer;
+    text-transform:capitalize;
+    border-radius: .9%;
+}
+
+
+
+/*.beaker
+{
+    width: 10%;
+}*/
+
+
+.instructions {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 19%;
+    border: 1px solid rgb(246, 243, 243);
+    border-radius: 5px;
+    padding: .5%;
+    margin-left: .5%;
+    overflow-y: scroll;
+}
+
+
+#taskslist{
+    list-style-type: none;
+      
+}
+ #taskslist li{
+    top: auto;
+    padding: 5px 0;
+    font-size: 20px;
+  }
+
+  b{
+    font-weight: 600;
+  }
+  
+ .reading{
+    position: absolute;
+    bottom:16.5% ;
+     height:4.2%;
+     width: 77.0%; 
+     left: 11.5%;
+      background: #cfd7bb;
+ }
+/* Secondary Container */
+#secondary_container, #third_container, #fourth_container ,#fifth_container , #sixth_container, #seventh_container,#eigth_container , #nineth_container ,#tenth_container {
+    display: none;
+    position: relative;
+}
+/*Slide 2 : step 2(1)*/
+#step_1_machineLP {
+    position: absolute;
+    bottom: 24%;
+    left: 19%;
+    transition: all 2.5s ease-in-out;
+}
+
+#step_1_machineUP1 {
+    position: absolute;
+    bottom: 35.6%;
+    left: 19%;
+}
+
+#step_1_machineUP {
+    position: absolute;
+    bottom: 35.9%;
+    left: 19%;
+}
+/*#step_1_machineUP1{
+    position: absolute;
+    bottom:20% ;
+    left: 40%;
+    }*/
+#step_1_machineUP2{
+    position: absolute;
+    bottom: 35.9%;
+    left: 19%;
+
+    }    
+#sol1{
+    position: absolute;
+    height: 2.5%;
+    width: 4.5%;
+    bottom: 25.5%;
+    left: 40.05%;
+}
+
+#step_1_pbtn{
+    cursor: pointer;
+  height: 3.0%;
+  width: 1.6%;
+  position: absolute;
+  left: 28.9%;
+  bottom: 29%;
+  border-radius: 30%;
+}
+#step_1_speed{
+    cursor: pointer;
+  height: 2.5%;
+  width: 1.8%;
+  position: absolute;
+  left: 22.3%;
+  bottom: 29.0%;
+}
+#reading1{
+    position: absolute;
+  
+    left:  23.3%;
+    bottom: 30.6%;
+    font-size: 2.0vh;
+    visibility: hidden;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+#step_1_beaker {
+    position: absolute;
+    width: 10%;
+    bottom: 20.5%;
+    left: 59%;
+}
+#kohsol{
+    position: absolute;
+    width: 8%;
+    left: 50.25%;
+    bottom: 22.1%;
+
+}
+#step_1_conicalFlask1{
+    position: absolute;
+    bottom: 23.5%;
+    left: 50%;
+    width: 15%;
+}
+#step_1_conicalFlask {
+    position: absolute;
+    bottom: 25.5%;
+    left: 40%;
+    width: 15%;
+}
+#step_1_droper{
+    position: absolute;
+    bottom: 22.5%;
+    left: 46%;
+    width: 10%;
+
+}/*slde 2: step2 :- close*/
+/*Slide 3: step 3(2) start*/
+#step_2_conicalFlask {
+    position: absolute;
+    bottom: 25.5%;
+    left: 50%;
+    width: 13%;
+}
+#step_2_droper{
+    position: absolute;
+    bottom: 22.5%;
+    left: 50%;
+    width: 10%;
+
+}
+
+#step_2_volumetricflask{
+    position: absolute;
+    bottom: 25.5%;
+    left: 43%;
+    width: 10%;
+}
+#step_2_burette{
+    position: absolute;
+    bottom: 24.4%;
+    left: 20%;
+    width: 40.1%;
+
+
+}
+/*slde 3: step3 :- close*/
+/*slde 4: step4 (3):- start*/
+#step_3_burette{
+    position: absolute;
+    bottom: 23.5%;
+    left: 40%;
+    width: 35%;
+
+
+}
+#step_3_volumetric-flask{
+    position: absolute;
+    bottom: 25.5%;
+    left: 48.65%;
+    width: 2.8%;
+}
+
+/* slide 4: step4:- close*/
+/*slide 5: step5(4) :-start*/
+
+#step_4_flask1{
+    position: absolute;
+    bottom: 25.5%;
+    left: 30%;
+    width: 3.8%;
+    
+}
+#step_4_flask2{
+    position: absolute;
+    bottom: 25.5%;
+    left: 42%;
+    width: 3.8%;
+    
+    
+}
+#step_4_flask3{
+    position: absolute;
+    bottom: 25.5%;
+    left: 54%;
+    width: 3.8%;
+    
+    
+}
+#step_4_flask4{
+    position: absolute;
+    bottom: 25.5%;
+    left: 65%;
+    width: 3.8%;
+    
+}/*close*/
+/*start5(4)*/
+#step_5_flask{
+    width: 4.8%;
+    position: absolute;
+    left: 30%;
+    bottom: 25.5%;
+    height: 14.5%;
+}
+#step_5_rbfFlask {
+    position: absolute;
+    bottom: 25.5%;
+    left: 50%;
+    width: 13%;
+}
+#step_5_droper{
+    position: absolute;
+    bottom: 22.5%;
+    left: 50%;
+    width: 10%;
+
+}
+/*close*/
+/*start6(5)*/
+
+/*waterbath*/
+#Hl7{
+    position: absolute;
+    bottom: 30.79%;
+    left: 34.265%;
+    width: .8%;
+
+}
+#HL2{
+    position: absolute;
+    bottom: 30.79%;
+    left: 35.165%;
+    width: .8%;
+
+}
+#hb1{
+    position: absolute;
+    bottom: 28.68%;
+    left: 36.82%;
+    width: 1.2%;
+
+}
+#HBNO{
+    position: absolute;
+    bottom: 28.5%;
+    left: 32.6%;
+    width: .8%;
+
+}
+#hmachine{
+    position: absolute;
+    bottom: 24.5%;
+    left: 25%;
+    width: 15%;
+}
+#flask_sol
+{
+    position: absolute;
+    bottom: 25.5%;
+    left: 55%;
+    width: 5%;
+}
+
+/*close*/
+/*start7(5)*/
+#step_7_flask{
+    position:absolute;
+    bottom: 25.2%;
+    left: 60%;
+    width: 4.8%;
+    height: 14.8%;
+}
+#step_7_droper{
+    position: absolute;
+    bottom: 22.5%;
+    left: 50%;
+    width: 10%;
+
+}
+#step_7_rbfflask{
+    position: absolute;
+    bottom: 25.5%;
+    left: 50%;
+
+}
+
+#step_7_pbtn{
+    cursor: pointer;
+  height: 3.0%;
+  width: 1.6%;
+  position: absolute;
+  left: 26.9%;
+  bottom: 29.95%;
+  border-radius: 30%;
+}
+#step_7_speed{
+    cursor: pointer;
+  height: 2.5%;
+  width: 1.8%;
+  position: absolute;
+  left: 20.3%;
+  bottom: 29.95%;
+}
+#reading7{
+    position: absolute;
+  
+    left:  23.2%;
+    bottom: 30.6%;
+    font-size: 2.0vh;
+    visibility: hidden;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+
+/*close*/
+/*start8(6)*/
+#step_8_flask{
+    position:absolute;
+    bottom: 25.2%;
+    left: 60%;
+    width: 4.8%;
+    height: 14.8%;
+}
+#step_8_droper{
+    position: absolute;
+    bottom: 22.5%;
+    left: 50%;
+    width: 10%;
+
+}
+#step_8_rbfflask{
+    position: absolute;
+    bottom: 25.5%;
+    left: 50%;
+
+}
+#step_8_burette{
+    position: absolute;
+    bottom: 23.5%;
+    left: 17%;
+    width: 38%;
+}
+#step_8_vf{
+    position: absolute;
+    bottom: 25.5%;
+    left: 40.65%;
+    width: 3.6%;
+}
+
+/*close*/
+/*start9(7)*/
+#step_9_burette{
+    position: absolute;
+   bottom: 22.5%;
+   left: 40%;
+   width: 40%;
+}
+#step_9_vf{
+    position: absolute;
+    bottom: 25.0%;
+    left: 49.7%;
+    width: 3.5%;
+}
+
+#step_9_hcls{ 
+    position: absolute;
+    bottom: 20.5%;
+left: 65%;
+    width:10% ;
+}
+/*close*/
+@media screen {
+    
+    
+}
+
+

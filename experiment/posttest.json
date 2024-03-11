@@ -2,12 +2,29 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+      "question": "1 Saponification value is the number of __ of KOH required to saponify number of __ of oil?",
+      "mg, g": {
+        "a": "g, mg",
+        "b": "mg, mg",
+        "c": "g, g",
+        "d": "mg, g"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2 Which of the following compound is an industrial manufacturing product by saponification?",
+      "Glycerol": {
+        "a": "Glycerol",
+        "b": "Potassium hydroxide",
+        "c": "Sodium chloride",
+        "d": "Sodium hydroxide"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -19,12 +36,12 @@
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+      "question": "3 If an oil has low saponification value, what can be inferred about the chain length of the fatty acid?",
+      "Long chain length": {
+        "a": "Short chain length",
+        "b": "Long chain length",
+        "c": "No relation",
+        "d": "None of the above"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -32,7 +49,41 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4 The saponification value is __________ to the molecular mass of the oil?",
+      "Inversely proportional": {
+        "a": "Directly proportional",
+        "b": "Inversely proportional",
+        "c": "No relation",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5 Saponification value of coconut oil is 250. The saponification value for petrol is expected to be?",
+      "0": {
+        "a": "500",
+        "b": "250",
+        "c": "50",
+        "d": "0"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
       "difficulty": "beginner"
     }
   ]
