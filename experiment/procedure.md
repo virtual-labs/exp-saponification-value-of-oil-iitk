@@ -11,12 +11,12 @@ Materials & Reagents Required:
 10)	Hydrochloric acid (standardized and adjusted to 0.5 N)
 11)	Phenolphthalein indicator
 Procedure in laboratory (diagram)
-<img src="img@2.png"><br>
-<img src="img@3.png"><br>
-<img src="img@4.png"><br>
-<img src="img@5.png"><br>
-<img src="img@6.png"><br>
-<img src="img@7.png"><br>
-<img src="img@8.png"><br>
-<img src="img@9.png"><br>
-<img src="img@10.png"><br>
+<img src="images/img@2.png"><br>
+<img src="images/img@3.png"><br>
+<img src="images/img@4.png"><br>
+<img src="images/img@5.png"><br>
+<img src="images/img@6.png"><br>
+<img src="images/img@7.png"><br>
+<img src="images/img@8.png"><br>
+<img src="images/img@9.png"><br>
+<img src="images/img@10.png"><br>
