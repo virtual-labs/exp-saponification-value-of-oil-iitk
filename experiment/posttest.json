@@ -3,7 +3,7 @@
   "questions": [
     {
       "question": "1 Saponification value is the number of __ of KOH required to saponify number of __ of oil?",
-      "mg, g": {
+      "answers": {
         "a": "g, mg",
         "b": "mg, mg",
         "c": "g, g",
@@ -20,7 +20,7 @@
     },
     {
       "question": "2 Which of the following compound is an industrial manufacturing product by saponification?",
-      "Glycerol": {
+      "answers": {
         "a": "Glycerol",
         "b": "Potassium hydroxide",
         "c": "Sodium chloride",
@@ -37,7 +37,7 @@
     },
     {
       "question": "3 If an oil has low saponification value, what can be inferred about the chain length of the fatty acid?",
-      "Long chain length": {
+      "answers": {
         "a": "Short chain length",
         "b": "Long chain length",
         "c": "No relation",
@@ -54,7 +54,7 @@
     },
     {
       "question": "4 The saponification value is __________ to the molecular mass of the oil?",
-      "Inversely proportional": {
+      "answers": {
         "a": "Directly proportional",
         "b": "Inversely proportional",
         "c": "No relation",
@@ -71,7 +71,7 @@
     },
     {
       "question": "5 Saponification value of coconut oil is 250. The saponification value for petrol is expected to be?",
-      "0": {
+      "answers": {
         "a": "500",
         "b": "250",
         "c": "50",
