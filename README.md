@@ -1,24 +1,23 @@
 ## Introduction
 
 
-<b>Discipline | <b>Fill your discipline name here
+<b>Discipline | <b> Chemical Engineering
 :--|:--|
-<b> Lab | <b> Fill your lab name here
-<b> Experiment|     <b> Fill your experiment name and number here
+<b> Lab | <b> Basic Chemistry Laboratory-I
+<b> Experiment| <b> Determination of saponification value of oil.
 
 ### About the Experiment 
 
-Fill a brief description of this experiment here
+To show how to determine the saponification value of oil using saponification reaction.
 
-<b>Name of Developer | <b> Fill the name of experiment owner here 
+<b>Name of Developer | <b> Prof. Pratik Sen 
 :--|:--|
-<b> Institute | <b>  
-<b> Email id|     <b>  
-<b> Department |  
+<b> Institute | <b>  Indian Institute of Technology Kanpur
+<b> Email id|     <b>  psen@iitk.ac.in
+<b> Department |  Department of Chemistry
 
 ### Contributors List
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | . | . | . | . | .
-2 | . | . | . | . | .
+1 | Durgesh Tiwari | Student | Computer Science & Information Technology | BU Jhansi | durgesh83034@gmail.com
