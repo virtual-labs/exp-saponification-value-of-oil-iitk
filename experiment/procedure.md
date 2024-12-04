@@ -7,10 +7,10 @@ Materials & Reagents Required:
 6)	Glass pipette (25 mL) 
 7)	Burette (50 mL)
 8)	Ethanol (95%) 
-9)	Potassium hydroxide [~0.5 N] in ethanol
-10)	Hydrochloric acid (standardized and adjusted to 0.5 N)
+9)	Potassium hydroxide [~0.5 M] in ethanol
+10)	Hydrochloric acid (standardized and adjusted to 0.5 M)
 11)	Phenolphthalein indicator<br><br>
-<b>Procedure in laboratory (diagram)</b><br>
+<b>Laboratory Procedure</b><br>
 <img src="images/img@2.png"><br>
 <img src="images/img@3.png"><br>
 <img src="images/img@4.png"><br>

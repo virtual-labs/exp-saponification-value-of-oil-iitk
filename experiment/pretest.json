@@ -2,12 +2,12 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "1 Alkaline hydrolysis of fat/oil to form soap is known as?",
+      "question": "The option below that describes saponification best is",
       "answers": {
-        "a": "Neutralization",
-        "b": "Enzymolysis",
-        "c": "Saponification",
-        "d": "Alkalimetry"
+        "a": "Neutralization of fatty acid",
+        "b": "Enzymolysis of fatty acid",
+        "c": "Alkaline hydrolysis of fat/oil",
+        "d": "Esterification of fatty acid"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -19,12 +19,12 @@
       "difficulty": "beginner"
     },
     {
-      "question": "2 Which of the following term describe saponification?",
+      "question": "What are the end products of saponification?",
       "answers": {
-        "a": "Cleaving of ester molecules into carboxylic salt ",
-        "b": "Hydrolysis of ester",
-        "c": "Esterification of long chain carboxylic acid",
-        "d": "Removal of water to form ester"
+        "a": "carboxylic salt and alcohol",
+        "b": "ester and alcohol",
+        "c": "carboxylic salt and ester",
+        "d": "ester and water"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
