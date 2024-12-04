@@ -16,9 +16,9 @@ Materials & Reagents Required:
 <img src="images/img@4.png"><br>
 <img src="images/img@5.png"><br>
 <img src="images/img@6.png"><br>
-<img src="images/img@7.png"><br>
+<img src="images/img@7.png"><br><br>
 <b>Procedure in laboratory</b><br>
-<img src="images/img@8.png"><br>
+<img src="images/img@8.png"><br><br>
 <b>Data and the analysis</b><br>
 <img src="images/img@9.png"><br>
 
