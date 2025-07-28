@@ -17,6 +17,36 @@ function resetBtn() {
     document.getElementById('min').innerHTML = "00"; 
     document.getElementById('sec').innerHTML = "00"; 
 }
+function forwardTimeBy3Minutes() {
+    minute += 3;
+
+    if (minute >= 60) {
+        minute = minute % 60;
+    }
+
+    // Update display
+    let minString = minute < 10 ? "0" + minute : minute;
+    let secString = second < 10 ? "0" + second : second;
+
+    document.getElementById('min').innerHTML = minString;
+    document.getElementById('sec').innerHTML = secString;
+
+    // ✅ STOP if we reached or exceeded 30 minutes
+    if ((minute * 60 + second) >= 1800) {
+        stopBtn();
+
+        if (typeof heaterdone !== 'undefined') {
+            heaterdone.style.opacity = "100%";
+        }
+        f = 25;
+        messcounter = 12;
+        if (typeof update === 'function') {
+            update();
+        }
+    }
+}
+
+
   
 function stopWatch() { 
     if (timer) { 
@@ -48,6 +78,7 @@ function stopWatch() {
   
         document.getElementById('min').innerHTML = minString; 
         document.getElementById('sec').innerHTML = secString; 
-        setTimeout(stopWatch, 250); 
+       setTimeout(stopWatch, 1000);
+
     } 
 }
