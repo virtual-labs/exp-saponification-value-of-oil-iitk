@@ -6,8 +6,40 @@
 }
 
 
+#rotate{
+    position: absolute;
+    height: 10%;
+    width: 7%;
+    top: 45.7%;
+    left: 15.2%;
+    visibility: hidden;
+   
 
+}
 
+.button {
+  background-color: #4CAF50; /* Green background */
+  border: none;              /* Remove border */
+  color: white;              /* White text */
+  padding: 10px 20px;        /* Spacing inside button */
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+  top: 90%;
+  margin: 10px 0;
+  cursor: pointer;
+  right: 1%;
+  border-radius: 8px;        /* Rounded corners */
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
 
 
 
@@ -495,6 +527,13 @@ body{
     transition: all;
     transition-duration: 1s;
     visibility: hidden;
+}
+#distilledFlask{
+  position: absolute;
+    top: 48%;
+    left: 27%;
+    height: 35%;
+    visibility: visible;
 }
 
 #koh15p{

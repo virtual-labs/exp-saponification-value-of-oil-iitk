@@ -4,7 +4,7 @@ var hmessage=["प्रयोग शुरू करने के लिए स
     "फिर से 15ml KOH घोल लेने के लिए पिपेट पर क्लिक करें और इसे oil sample में डालें",
     "oil sample को KOH घोल में घुलनशील बनाने के लिए उसे हीटिंग मशीन पर रखने के लिए फ्लास्क पर क्लिक करें",
     "हीट मशीन पर तापमान नॉब पर क्लिक करके, तापमान को 70 डिग्री सेल्सियस पर सेट करें",
-    "अब ब्यूरेट में घोल भरने के लिए HCL सॉल्यूशन फ्लास्क पर क्लिक करें",
+    "अब पहले ब्यूरेट को धो लें और फिर ब्यूरेट में घोल भरने के लिए HCL सॉल्यूशन फ्लास्क पर क्लिक करें",
     "KOH फ्लास्क में फिनोलफ्थलीन इंडिकेटर की कुछ बूंदें डालें",
     "अब फ्लास्क को ब्यूरेट के नीचे रखें",
     "ब्यूरेट नोब पर तब तक क्लिक करें जब तक आपको घोल का पारदर्शी रंग न मिल जाए",
@@ -27,7 +27,7 @@ var message=["Press start button to start the experiment",
     "again click on pipette to take 15ml koh and put it in oil sample ",
     "click on oil sample flask to put it on heating machine to make oil soluble in KOH solution",
     "by clicking on temperature nob on heat machine, set the temperature at 70 degree celcius",
-    "now click on HCL solution flask to fill the solution in burette",
+   "now wash the burette first and tehn click on HCL solution flask to fill the solution in burette",
     "add some drops of phenolphthlein indicator in KOH flask",
     "now put flask under the burette",
     "click on burette nob until you get the transparent colour of the solution",
@@ -84,13 +84,6 @@ function start(){
         f=3000
     }
 }
-
-
-
-
-
-
-
 
 
 function hindi1(){
@@ -167,45 +160,6 @@ function update(){
     messcounter+=1
         speech1()
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 function resizeall(){
     koh15.style.left="10%"
