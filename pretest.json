@@ -1,0 +1,65 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "The option below that describes saponification best is",
+      "answers": {
+        "a": "Neutralization of fatty acid",
+        "b": "Enzymolysis of fatty acid",
+        "c": "Alkaline hydrolysis of fat/oil",
+        "d": "Esterification of fatty acid"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What are the end products of saponification?",
+      "answers": {
+        "a": "carboxylic salt and alcohol",
+        "b": "ester and alcohol",
+        "c": "carboxylic salt and ester",
+        "d": "ester and water"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3 How many molecules of fatty acids are released from a triglyceride?",
+      "answers": {
+        "a": "One",
+        "b": "Two",
+        "c": "Three",
+        "d": "None"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4 Triglycerides are natural esters of glycerol with?",
+      "answers": {
+        "a": "Long chain aliphatic carboxylic acids",
+        "b": "Tribasic carboxylic acids",
+        "c": "High molecular weight aromatic carboxylic acids",
+        "d": "Tribasic mineral acids"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5 The inappropriate indicator for strong acid – strong base titration is?",
+      "answers": {
+        "a": "Phenolphthalein",
+        "b": "Methyl orange",
+        "c": "Bromophenol blue",
+        "d": "None"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    }
+  ]
+}
