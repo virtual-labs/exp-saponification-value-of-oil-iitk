@@ -12,13 +12,20 @@ Materials & Reagents Required:
 11)	Phenolphthalein indicator<br><br>
 <b>Laboratory Procedure</b><br>
 <img src="images/img@2.png"><br>
+<centre><b>Figure 1. </b></center><br><br>
 <img src="images/img@3.png"><br>
+<centre><b>Figure 2. </b></center><br><br>
 <img src="images/img@4.png"><br>
+<centre><b>Figure 3. </b></center><br><br>
 <img src="images/img@5.png"><br>
+<centre><b>Figure 4. </b></center><br><br>
 <img src="images/img@6.png"><br>
+<centre><b>Figure 5. </b></center><br><br>
 <img src="images/img@7.png"><br>
+<centre><b>Figure 6. </b></center><br><br>
 <b>Procedure in laboratory</b><br>
 <img src="images/img@8.png"><br>
-<b>Data and the analysis</b><br>
+<centre><b>Figure 7. </b></center><br>
+<!--<b>Data and the analysis</b><br>
 <img src="images/img@9.png"><br>
 
